@@ -21,7 +21,7 @@ $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
 $helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
-$libre-franklin: "Nunito", Helvetica, Arial, sans-serif !default;
+$nunito: "Nunito", Helvetica, Arial, sans-serif !default;
 
 /* serif typefaces */
 $georgia: Georgia, serif !default;
@@ -31,9 +31,9 @@ $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 $libre-baskerville: "Libre Baskerville", serif !default;
 
-$global-font-family: $libre-franklin !default;
-$header-font-family: $libre-franklin !default;
-$caption-font-family: $libre-franklin !default;
+$global-font-family: $nunito !default;
+$header-font-family: $nunito !default;
+$caption-font-family: $nunito !default;
 
 /* type scale */
 $type-size-1: 2.441em !default; // ~39.056px

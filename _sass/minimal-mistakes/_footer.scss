@@ -14,13 +14,13 @@
   bottom: 0;
   height: auto;
   /* sticky footer fix end */
-  margin-top: 3em;
-  color: $muted-text-color;
+  margin-top: 0em;
+  color: #999;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
-  background-color: $footer-background-color;
+  background-color: none;
 
   footer {
     @include clearfix;

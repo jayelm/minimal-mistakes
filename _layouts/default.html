@@ -31,5 +31,15 @@
 
     {% include scripts.html %}
 
+{% comment %}
+   <!-- include once you get footer working without ruining sticky sidebar -->
+	 <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
+{% endcomment %}
+
   </body>
 </html>

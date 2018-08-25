@@ -20,7 +20,7 @@
     {% if author.e1 %}
       <li>
         <span class="fake-link" onclick="this.childNodes[3].nodeValue = ['{{ author.e1 }}', '-', '', '', '', '{{ author.e2}}', '', '-', '{{ author.e3 }}'].join(''); this.style.cursor = 'text';">
-          <i id="email-label" class="fas fa-fw fa-envelope-square" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}
+          <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}
         </span>
       </li>
     {% endif %}

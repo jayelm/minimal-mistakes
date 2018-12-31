@@ -20,7 +20,7 @@ title                    : "Jesse Mu"
 title_separator          : "-"
 name                     : "Jesse Mu"
 description              : ""
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://cs.stanford.edu/~muj/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Jesse Mu"
-  avatar           : "/assets/images/bw.jpg"
+  avatar           : "assets/images/bw.jpg"
   bio              : "CS PhD @ Stanford studying NLP and ML"
   # location         : "CA"
   e1               : muj

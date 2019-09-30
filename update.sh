@@ -2,6 +2,8 @@
 
 JEKYLL_ENV=production jekyll build
 
+cp cv.pdf _site/
+
 cd _site
 rm site.zip
 

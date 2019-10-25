@@ -7,7 +7,7 @@ JEKYLL_ENV=production jekyll build
 cp cv.pdf _site/
 
 cd _site
-rm site.zip
+rm -f site.zip
 
 zip -r site.zip *
 scp site.zip jacob:~/www/

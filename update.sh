@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 JEKYLL_ENV=production jekyll build
 
 cp cv.pdf _site/

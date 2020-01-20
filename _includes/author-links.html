@@ -73,6 +73,14 @@
       </li>
     {% endif %}
 
+    {% if author.linkedin %}
+      <li>
+        <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs">
+          <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>LinkedIn
+        </a>
+      </li>
+    {% endif %}
+
     {% if author.xing %}
       <li>
         <a href="https://www.xing.com/profile/{{ author.xing }}" itemprop="sameAs">
@@ -132,7 +140,7 @@
     {% if author.lastfm %}
       <li>
         <a href="https://last.fm/user/{{ author.lastfm }}" itemprop="sameAs">
-          <i class="fab fa-fw fa-lastfm-square" aria-hidden="true"></i> Last.fm
+          <i class="fab fa-fw fa-lastfm-square" aria-hidden="true"></i>Last.fm
         </a>
       </li>
     {% endif %}

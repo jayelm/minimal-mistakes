@@ -120,8 +120,8 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  lastfm           :
-  linkedin         : "jayelm" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  lastfm           : "jayelm"
+  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : "2980246/jayelm" # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)

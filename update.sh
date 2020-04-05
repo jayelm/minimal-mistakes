@@ -12,6 +12,6 @@ rm -f site.zip
 zip -r site.zip *
 scp site.zip jacob:~/www/
 
-ssh -t jacob 'cd ~/www/ && unzip -o site.zip && rm site.zip'
+ssh -t jacob 'cd ~/www/ && unzip -o site.zip && rm site.zip && rm update.sh'
 
 cd ..

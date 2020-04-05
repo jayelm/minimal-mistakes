@@ -13,6 +13,7 @@ body {
   padding: 0;
   color: $text-color;
   font-family: $global-font-family;
+  font-weight: $global-font-weight;
   line-height: 1.5;
 
   &.overflow--hidden {
@@ -30,7 +31,20 @@ h6 {
   margin: 1em 0 0.5em;
   line-height: 1.2;
   font-family: $header-font-family;
-  font-weight: bold;
+  font-weight: 500;
+  color: #000000;
+}
+
+strong {
+    font-weight: 500;
+    color: #000000;
+    // color: #101080;
+}
+
+strong.papertitle {
+    font-weight: 500;
+    color: #000000;
+    // color: #101080;
 }
 
 h1 {
@@ -124,19 +138,29 @@ blockquote {
 }
 
 /* links */
+.author__urls a {
+    font-weight: lighter;
+}
+
+
+a.paperlink {
+    margin-left: 3px;
+}
 
 a {
   // color: $link-color;
   color: #101080;
+  font-weight: 400;
   &:focus {
     @extend %tab-focus;
   }
 
-  &:hover,
-  &:active {
-    color: #2020d0;
-    outline: 0;
-  }
+  // &:hover,
+  // &:active {
+    // color: #2020d0;
+    // outline: 0;
+  // }
+  text-decoration: none;
 }
 
 /* buttons */

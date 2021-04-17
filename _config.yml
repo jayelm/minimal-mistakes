@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Jesse Mu"
-  avatar           : "/assets/images/bw.jpg"
+  avatar           : "/assets/images/headshot.jpg"
   bio              : "CS PhD @ Stanford studying NLP and ML"
   # location         : "CA"
   e1               : muj
